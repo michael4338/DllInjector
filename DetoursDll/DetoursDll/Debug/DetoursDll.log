@@ -1,0 +1,40 @@
+﻿Build started 12/30/2013 4:10:33 PM.
+     1>Project "C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\DetoursDll\DetoursDll.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\DetoursDll.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\DetoursDll.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\Detours\3.0\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DETOURSDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DetoursDll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\Detours\3.0\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DETOURSDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DetoursDll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DetoursDll.cpp
+         DetoursDll.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\Detours\3.0\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DETOURSDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DetoursDll.dll.embed.manifest.res" Debug\DetoursDll_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\Debug\DetoursDll.dll" /INCREMENTAL /NOLOGO /LIBPATH:E:\Detours\3.0\lib.X86 detours.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DetoursDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\Debug\DetoursDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\Debug\DetoursDll.lib" /MACHINE:X86 /DLL Debug\DetoursDll.dll.embed.manifest.res
+         Debug\DetoursDll.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+            Creating library C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\Debug\DetoursDll.lib and object C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\Debug\DetoursDll.exp
+       Manifest:
+         Deleting file "Debug\DetoursDll.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DetoursDll.dll.embed.manifest" /manifest Debug\DetoursDll.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DetoursDll.dll.embed.manifest.res" Debug\DetoursDll_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\Debug\DetoursDll.dll" /INCREMENTAL /NOLOGO /LIBPATH:E:\Detours\3.0\lib.X86 detours.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DetoursDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\Debug\DetoursDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\Debug\DetoursDll.lib" /MACHINE:X86 /DLL Debug\DetoursDll.dll.embed.manifest.res
+         Debug\DetoursDll.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+            Creating library C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\Debug\DetoursDll.lib and object C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\Debug\DetoursDll.exp
+         DetoursDll.vcxproj -> C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\Debug\DetoursDll.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\DetoursDll.unsuccessfulbuild".
+         Touching "Debug\DetoursDll.lastbuildstate".
+     1>Done Building Project "C:\Users\milin\Documents\Visual Studio 2010\Projects\DetoursDll\DetoursDll\DetoursDll.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.11

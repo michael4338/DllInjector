@@ -1,0 +1,5 @@
+c:\users\milin\documents\visual studio 2010\Projects\DetoursApp\DetoursApp\bin\Debug\DetoursApp.exe
+c:\users\milin\documents\visual studio 2010\Projects\DetoursApp\DetoursApp\bin\Debug\DetoursApp.pdb
+c:\users\milin\documents\visual studio 2010\Projects\DetoursApp\DetoursApp\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\milin\documents\visual studio 2010\Projects\DetoursApp\DetoursApp\obj\x86\Debug\DetoursApp.exe
+c:\users\milin\documents\visual studio 2010\Projects\DetoursApp\DetoursApp\obj\x86\Debug\DetoursApp.pdb
